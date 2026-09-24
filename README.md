@@ -1,4 +1,10 @@
-# Graph Neural Networks for Industrial Engineering, Operations Research, and Optimization
+# GNN for Industrial Engineering and OR Optimization
+
+<!-- portfolio-umbrella:start -->
+## Portfolio role
+
+This repository is intentionally maintained as a standalone primary repository in the consolidated Jors Academy portfolio. It is not used as a container for other projects.
+<!-- portfolio-umbrella:end -->
 
 > **Updated:** August 2026  
 > This repository is an English guide to using Graph Neural Networks (GNNs) in operations research (OR), industrial engineering, and optimization.
