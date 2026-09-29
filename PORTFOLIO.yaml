@@ -1,0 +1,13 @@
+schema_version: 1
+repository: gnn-for-industrial-engineering-and-or-optimization
+role: standalone
+axis: guide
+area: gnn-or-en
+status: active
+owner: jorsacademy
+projects:
+  []
+conventions:
+  provenance_records: false
+  reproducibility_expected: true
+  benchmark_assumptions_documented: true
