@@ -6,6 +6,10 @@
 This repository is intentionally maintained as a standalone primary repository in the consolidated Jors Academy portfolio. It is not used as a container for other projects.
 <!-- portfolio-umbrella:end -->
 
+## Language edition
+
+Other language edition: [GNN ile Yöneylem Araştırması ve Optimizasyon](https://github.com/jorsacademy/gnn-ile-yoneylem-arastirmasi-ve-optimizasyon).
+
 > **Updated:** August 2026  
 > This repository is an English guide to using Graph Neural Networks (GNNs) in operations research (OR), industrial engineering, and optimization.
 
