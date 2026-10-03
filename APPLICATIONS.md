@@ -150,6 +150,18 @@ weighted Set Cover MILP
  -> reduced MILP
 ```
 
+## Manufacturing-focused design blueprints
+
+See [MANUFACTURING_APPLICATIONS.md](MANUFACTURING_APPLICATIONS.md) for three manufacturing-specific extensions that are intentionally kept separate from the executable example sequence until they satisfy the repository's benchmark standard:
+
+- dynamic production-line bottleneck early warning;
+- quality-defect propagation and root-cause candidate ranking;
+- dependency-aware predictive maintenance and cascade-risk prioritization.
+
+Integrated production planning and scheduling is not duplicated as a separate blueprint because the portfolio already contains dedicated scheduling and production-planning coverage. A future addition should justify itself with a distinct shared-resource, solver-in-the-loop benchmark.
+
+---
+
 ## Suggested learning order
 
 ```text
