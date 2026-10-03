@@ -21,7 +21,7 @@ The central position of this repository is:
 
 Accordingly, the repository covers not only `graph -> GNN -> solution`, but also GNN + local search, GNN + reinforcement learning, GNN + branch-and-bound, GNN + cutting planes, GNN + warm starts, GNN + candidate screening, GNN + CP/MIP, and differentiable optimization.
 
-See [APPLICATIONS.md](APPLICATIONS.md) for the applied examples and [advanced_topics/gnn_taxonomy.md](advanced_topics/gnn_taxonomy.md) for the extended model taxonomy.
+See [APPLICATIONS.md](APPLICATIONS.md) for the applied examples, [MANUFACTURING_APPLICATIONS.md](MANUFACTURING_APPLICATIONS.md) for manufacturing-specific GNN blueprints, and [advanced_topics/gnn_taxonomy.md](advanced_topics/gnn_taxonomy.md) for the extended model taxonomy.
 
 ---
 
