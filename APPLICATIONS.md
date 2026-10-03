@@ -160,6 +160,15 @@ See [MANUFACTURING_APPLICATIONS.md](MANUFACTURING_APPLICATIONS.md) for three man
 
 Integrated production planning and scheduling is not duplicated as a separate blueprint because the portfolio already contains dedicated scheduling and production-planning coverage. A future addition should justify itself with a distinct shared-resource, solver-in-the-loop benchmark.
 
+## Real-world implementation blueprints
+
+See [REAL_WORLD_PROJECT_BLUEPRINTS.md](REAL_WORLD_PROJECT_BLUEPRINTS.md) for two additional projects selected specifically because they introduce decision structures not already covered elsewhere in the portfolio:
+
+- cold-chain and perishability-aware distribution with temporal product-condition state;
+- aerospace BOM, qualification, and supply-risk optimization with heterogeneous / higher-order dependencies.
+
+Automotive JIT coordination, generic electronics resource allocation, generic semiconductor supply-chain optimization, and fresh-food distribution are not promoted as separate projects because they currently overlap existing scheduling, supply-chain, or perishability structures.
+
 ---
 
 ## Suggested learning order
