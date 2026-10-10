@@ -1,0 +1,42 @@
+name: GNN teaching asset integrity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "notebooks/**"
+      - "examples/**"
+      - "scripts/check_learning_materials.py"
+      - "tests/test_learning_materials.py"
+      - ".github/workflows/teaching-assets.yml"
+  pull_request:
+    paths:
+      - "notebooks/**"
+      - "examples/**"
+      - "scripts/check_learning_materials.py"
+      - "tests/test_learning_materials.py"
+      - ".github/workflows/teaching-assets.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notebook-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Test integrity validator
+        run: python -m unittest discover -s tests -p test_learning_materials.py -v
+      - name: Check actual research notebooks
+        run: python scripts/check_learning_materials.py
+      - name: Compile standalone Python teaching examples
+        run: python -m compileall -q examples
