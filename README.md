@@ -764,3 +764,7 @@ but rather:
 That decision may be a branch variable, cut, neighborhood, route candidate, machine assignment, warm start, variable fixing decision, candidate arc/set, or search priority.
 
 The strongest role of GNNs in operations research is usually not to discard optimization theory, but to **augment classical algorithms with learned structural heuristics while preserving explicit feasibility and solver-based verification where it matters**.
+
+## Notebook integrity CI
+
+[Teaching asset CI](.github/workflows/teaching-assets.yml) validates the Jupyter JSON/cell structure of committed GNN notebooks and compiles Python examples on Python 3.11 and 3.12. This is a fast **asset-integrity and syntax gate**, not a PyTorch/PyG/SCIP training benchmark. Model correctness, solver integration and GPU tests require separate environments and remain unverified by this check.
